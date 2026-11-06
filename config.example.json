@@ -1,0 +1,44 @@
+{
+  "master_id": "YOUR_DISCORD_USER_ID",
+  "operator_id": "",
+  "operator_guild_id": "YOUR_MAIN_SERVER_ID",
+  "staff_guild_id": "YOUR_STAFF_SERVER_ID",
+  "test_guild_id": "",
+  "prefix": "abc.",
+  "status": "online",
+  "status_message": "DM me for modmail",
+  "toggle_mod_mail": false,
+  "silent_modmail_pings": false,
+  "sync_logs_toggle": false,
+  "sync_logs_guilds": [],
+  "bot_interaction_sync_channel_id": "",
+  "music_admin_role_ids": [],
+  "starboard": {
+    "default_channels": {}
+  },
+  "feature_defaults": {
+    "autodelete_channel_id": "",
+    "autodelete_immune_message_ids": [],
+    "auto_thread_channel_ids": [],
+    "auto_message_channel_id": "",
+    "no_overwrite_channel_ids": []
+  },
+  "modmail": {
+    "guild_id": "YOUR_STAFF_SERVER_ID",
+    "default_support_role_id": "SUPPORT_ROLE_ID",
+    "categories": [
+      {
+        "id": "general",
+        "label": "General Support",
+        "forum_channel_id": "FORUM_CHANNEL_ID",
+        "support_role_id": "",
+        "support_user_id": "",
+        "ongoing_tag_id": "",
+        "resolved_tag_id": "",
+        "tags": [
+          { "id": "FORUM_TAG_ID", "label": "Question", "description": "Ask a question or request help." }
+        ]
+      }
+    ]
+  }
+}

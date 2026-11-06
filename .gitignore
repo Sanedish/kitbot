@@ -1,0 +1,21 @@
+node_modules/
+
+# Secrets and local setup
+.env
+config.json
+
+# Runtime state, logs, transcripts. Contains user data, never commit.
+data/*
+!data/.gitkeep
+
+# Your own images, see README
+media/*
+!media/.gitkeep
+
+# PocketBase binary and its data
+pb/
+
+# Music library
+music/
+
+*.log
